@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug dumps
+prototype/**/debug_*.json
+prototype_v2/**/debug_*.json
+**/debug_state.json
+
+# Local settings
+.claude/settings.local.json
+
+# Temp / quick test scripts
+**/quick_test.py
+**/console_test.py
